@@ -1,0 +1,67 @@
+h1 {
+    font-size:30px;
+    margin:10px;
+}
+
+a {
+    color:rgb(132, 132, 156)
+}
+
+h2 {
+    font-size:25px;
+    margin:15px;
+}
+
+.footer {
+    width:70%;
+    height:170px;
+    margin:20px auto;
+    text-align:center;
+    padding:10px;
+}
+
+div {
+    width:70%;
+    text-align:center;
+    margin:20px auto;
+    padding:30px;
+}
+
+.image {
+    width:60%;
+    cursor:pointer;
+    opacity:1.0;
+    border:1px solid rgb(183, 189, 201);
+    margin-bottom:20px;
+    margin-top:10px;
+}
+
+.image:hover { 
+    opacity: 0.7; 
+}
+
+.image2 {
+    cursor:pointer;
+    opacity:1.0;
+    border:1px solid rgb(183, 189, 201);
+    margin-bottom:20px;
+    margin-top:10px;
+}
+
+.image2:hover { 
+    opacity: 0.7; 
+}
+
+
+.t {
+    margin-bottom:15px;
+}
+
+button {
+    margin-right:10px;
+    margin-bottom:10px;
+}
+
+h5 {
+    margin-bottom:10px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css.css">
+<title>Gra wisielec</title>
+</head>
+<body>
+<div id="game">
+<span class="instop">Instrukcja: </span>
+<h5 id="instruction">Twoim zadaniem jest zgadnąć zwierzę możesz próbować 10 razy. 
+<br>W białe okienko wpisuj małe polskie litery od a do ż.</h5>
+<h4>To zwierzę to:</h4>
+<h4 id="word"></h4><br>
+<div id="middle">
+<form id="frm">
+<label class="label">Wpisz literę: </label>
+<input type="text" id="text">
+<button class="letterbutton">Sprawdź literę</button>
+</form>
+</div>
+<h2 id="oo">Zostało Ci <span id="counter">10</span> trafień</h2>
+<h2>Wykorzystane litery to: <span id="lit"><span></h2>
+<h2 id="end"></h2>
+<button class="resbutton" id="resbtn">Zrestartuj</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
